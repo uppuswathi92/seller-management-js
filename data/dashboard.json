@@ -1,0 +1,50 @@
+{
+    
+    "profile_details": {
+        "name": "John Brew",
+        "Address": "318 Willow Creek, #300, Santa Clara, California",
+        "Date of Birth": "05/12/1977",
+        "Phone":"9903881435",
+        "sales_image":"sales-graph.png",
+        "Channels":[
+        "amazon",
+        "etsy",
+        "walmart"
+        ]
+
+    },
+    
+    "sales_info":{
+        "today":{
+            "sold":"15",
+            "selling_channels":["amazon","walmart"],
+            "cancelled":"5",
+            "cancelled_channels":["etsy","amazon"],
+            "returns":"2",
+            "returned_channels":["walmart","etsy"]
+        },
+        "week":{
+            "sold":"55",
+            "selling_channels":["amazon","etsy"],
+            "cancelled":"35",
+            "cancelled_channels":["amazon","etsy","walmart"],
+            "returns":"20",
+            "returned_channels":["etsy"]
+        },
+        "month":{
+            "sold":"500",
+            "selling_channels":["etsy","walmart","amazon"],
+            "cancelled":"300",
+            "cancelled_channels":["etsy","walmart","amazon"],
+            "returns":"200",
+            "returned_channels":["etsy","walmart","amazon"]
+        }
+        
+    },
+    
+    "top_selling_products":{
+        "products":["Headphones pack of 3","Trench","java Book","Power bank","Drone"],
+        "number_of_products_sold":["500","300","200","150","50"]
+    }
+    
+}
